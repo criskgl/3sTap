@@ -1,3 +1,5 @@
+
+ ![Alt text](readmeImages/appIcon.png)
 # 3 Seconds Tap 
 
 Apple Watch Game ⌚️
@@ -5,13 +7,10 @@ Apple Watch Game ⌚️
 Current version supports only Iphone SE paired with Apple Watch Series 4 40mm
 
 ## Phases
-  ![Alt text](readmeImages/appIcon.png)
+ 
   ![Alt text](readmeImages/phase1.png?raw=true "Phase 1")
   ![Alt text](readmeImages/phase2.png?raw=true "Phase 2")
   ![Alt text](readmeImages/phase3.png?raw=true "Phase 3")
-
-
-  ![Alt text](readmeImages/phase1.png)
 
 ## Getting Started
 
