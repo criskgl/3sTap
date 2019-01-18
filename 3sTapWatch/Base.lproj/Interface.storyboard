@@ -31,10 +31,6 @@
                                 <segue destination="AgC-eL-Hgc" kind="push" id="YXo-Bj-crw"/>
                             </connections>
                         </button>
-                        <button width="1" height="73" alignment="left" verticalAlignment="bottom" title="🏆    0" id="uCZ-4S-bKK">
-                            <color key="titleColor" red="0.81006305320000005" green="0.69528660499999995" blue="0.16619292090000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            <fontDescription key="font" name="Megrim" family="Megrim" pointSize="34"/>
-                        </button>
                     </items>
                 </controller>
             </objects>
