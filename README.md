@@ -1,9 +1,3 @@
-# 3sTap
-
-Game made for the Apple Watch. 
-
-
-
 # 3 Seconds Tap 
 
 Apple Watch Game
