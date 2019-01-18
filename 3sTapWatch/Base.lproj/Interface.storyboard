@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sbw-0a-FL5">
+<document type="com.apple.InterfaceBuilder.WatchKit.Storyboard" version="3.0" toolsVersion="14460.31" targetRuntime="watchKit" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="sbw-0a-FL5" pageOrientation="vertical">
     <device id="watch40" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -19,18 +19,21 @@
             <objects>
                 <controller id="sbw-0a-FL5">
                     <items>
-                        <label width="136" height="27" alignment="center" text="3 s Tap" textAlignment="center" id="mCP-MD-zoO">
-                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                            <fontDescription key="font" name="Megrim" family="Megrim" pointSize="20"/>
-                        </label>
-                        <separator alignment="left" id="5vs-dQ-Gb6"/>
-                        <button width="136" height="121" alignment="center" title="S T A R T" id="UiP-7D-muN">
+                        <button width="1" height="37" alignment="left" title="3 s Tap" id="2o2-dK-a31">
+                            <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                            <fontDescription key="font" name="Megrim" family="Megrim" pointSize="34"/>
+                        </button>
+                        <button width="136" height="39" alignment="center" verticalAlignment="center" title="S T A R T" id="UiP-7D-muN">
                             <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                             <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="font" name="Megrim" family="Megrim" pointSize="29"/>
                             <connections>
                                 <segue destination="AgC-eL-Hgc" kind="push" id="YXo-Bj-crw"/>
                             </connections>
+                        </button>
+                        <button width="1" height="73" alignment="left" verticalAlignment="bottom" title="🏆    0" id="uCZ-4S-bKK">
+                            <color key="titleColor" red="0.81006305320000005" green="0.69528660499999995" blue="0.16619292090000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <fontDescription key="font" name="Megrim" family="Megrim" pointSize="34"/>
                         </button>
                     </items>
                 </controller>
@@ -42,7 +45,7 @@
             <objects>
                 <controller identifier="playingView" id="AgC-eL-Hgc" customClass="InterfaceController" customModule="_sTapWatch" customModuleProvider="target">
                     <items>
-                        <group width="1" height="27" alignment="left" id="SY8-7V-mzv">
+                        <group width="1" height="21" alignment="left" id="SY8-7V-mzv">
                             <items>
                                 <label width="39" height="22" alignment="right" text="0" textAlignment="right" id="lK0-YX-21q">
                                     <color key="textColor" red="0.93048757314682007" green="0.19205617904663086" blue="0.91656571626663208" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -50,20 +53,20 @@
                                 </label>
                                 <label width="80" alignment="center" verticalAlignment="center" text="🏆0" textAlignment="center" id="pcf-M0-vgI">
                                     <color key="textColor" red="0.81006305320613881" green="0.69528660500783768" blue="0.16619292085536416" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                    <fontDescription key="font" name="Megrim" family="Megrim" pointSize="34"/>
+                                    <fontDescription key="font" name="Megrim" family="Megrim" pointSize="30"/>
                                 </label>
                                 <label width="22" height="25" alignment="left" text="0" textAlignment="left" id="FQr-CE-nUQ">
                                     <fontDescription key="font" name="Megrim" family="Megrim" pointSize="27"/>
                                 </label>
                             </items>
                         </group>
-                        <separator alignment="left" id="PkX-pR-lbm"/>
-                        <group width="1" height="118" alignment="left" id="jjC-2Z-Cip">
+                        <separator alignment="left" id="zvF-LR-2lU"/>
+                        <group width="150" height="110" alignment="center" verticalAlignment="bottom" id="jjC-2Z-Cip">
                             <items>
-                                <button width="126" height="122" alignment="center" verticalAlignment="bottom" backgroundImage="countUp2" id="h36-wN-A4u" userLabel="increaseTapButton">
+                                <button width="105" height="111" alignment="center" verticalAlignment="bottom" backgroundImage="countUp1" id="h36-wN-A4u" userLabel="increaseTapButton">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                    <fontDescription key="font" type="system" weight="thin" pointSize="110"/>
+                                    <fontDescription key="font" type="system" weight="thin" pointSize="60"/>
                                     <connections>
                                         <action selector="increaseTap" destination="AgC-eL-Hgc" id="EAC-jj-mrS"/>
                                     </connections>
@@ -79,7 +82,7 @@
                     </connections>
                 </controller>
             </objects>
-            <point key="canvasLocation" x="310.61728395061726" y="450.88832487309639"/>
+            <point key="canvasLocation" x="310.61728395061726" y="440.53299492385781"/>
         </scene>
     </scenes>
 </document>
