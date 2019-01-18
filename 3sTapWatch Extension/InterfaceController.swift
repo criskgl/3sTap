@@ -34,7 +34,7 @@ class InterfaceController: WKInterfaceController {
     var highScore = 0
     var taps = 0
 
-    
+    @IBOutlet weak var secondsSlider: WKInterfaceSlider!
     @IBOutlet weak var increaseTapButton: WKInterfaceButton!
     @IBOutlet weak var highScoreLabel: WKInterfaceLabel!
     @IBOutlet weak var tapsCounterLabel: WKInterfaceLabel!
