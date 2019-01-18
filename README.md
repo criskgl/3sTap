@@ -4,6 +4,10 @@ Apple Watch Game ⌚️
 
 Current version supports only Iphone SE paired with Apple Watch Series 4 40mm
 
+## Phases
+
+  ![Alt text](readmeImages/phase1.png)
+
 ## Getting Started
 
 To execute it and run it in your device:
