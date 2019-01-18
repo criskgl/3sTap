@@ -19,12 +19,12 @@
             <objects>
                 <controller id="sbw-0a-FL5">
                     <items>
-                        <separator alignment="left" verticalAlignment="bottom" id="5vs-dQ-Gb6"/>
-                        <label width="136" height="33" alignment="center" text="3 s Tap" textAlignment="center" id="mCP-MD-zoO">
+                        <label width="136" height="27" alignment="center" text="3 s Tap" textAlignment="center" id="mCP-MD-zoO">
                             <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="font" name="Megrim" family="Megrim" pointSize="20"/>
                         </label>
-                        <button width="136" height="124" alignment="center" verticalAlignment="bottom" title="S T A R T" id="UiP-7D-muN">
+                        <separator alignment="left" id="5vs-dQ-Gb6"/>
+                        <button width="136" height="121" alignment="center" title="S T A R T" id="UiP-7D-muN">
                             <color key="titleColor" cocoaTouchSystemColor="tableCellGroupedBackgroundColor"/>
                             <color key="backgroundColor" red="0.30840110780000002" green="0.5618229508" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <fontDescription key="font" name="Megrim" family="Megrim" pointSize="29"/>
@@ -58,9 +58,9 @@
                             </items>
                         </group>
                         <separator alignment="left" id="PkX-pR-lbm"/>
-                        <group width="1" alignment="left" id="jjC-2Z-Cip">
+                        <group width="1" height="118" alignment="left" id="jjC-2Z-Cip">
                             <items>
-                                <button width="136" height="122" alignment="center" verticalAlignment="bottom" backgroundImage="countUp2" id="h36-wN-A4u" userLabel="increaseTapButton">
+                                <button width="126" height="122" alignment="center" verticalAlignment="bottom" backgroundImage="countUp2" id="h36-wN-A4u" userLabel="increaseTapButton">
                                     <color key="titleColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                     <fontDescription key="font" type="system" weight="thin" pointSize="110"/>
