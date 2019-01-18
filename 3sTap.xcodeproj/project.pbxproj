@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		400525A021F1777300CED015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409C1F1D21DEED46006D53AD /* Assets.xcassets */; };
+		400525A121F1790500CED015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409C1F1D21DEED46006D53AD /* Assets.xcassets */; };
+		400525A221F1790700CED015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409C1F1D21DEED46006D53AD /* Assets.xcassets */; };
+		400525A321F1790700CED015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409C1F1D21DEED46006D53AD /* Assets.xcassets */; };
+		400525A421F1790800CED015 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 409C1F1D21DEED46006D53AD /* Assets.xcassets */; };
 		409C1ED721DEEBED006D53AD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409C1ED621DEEBED006D53AD /* AppDelegate.swift */; };
 		409C1ED921DEEBED006D53AD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409C1ED821DEEBED006D53AD /* ViewController.swift */; };
 		409C1EDC21DEEBED006D53AD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409C1EDA21DEEBED006D53AD /* Main.storyboard */; };
@@ -14,6 +19,17 @@
 		409C1EE121DEEBF1006D53AD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409C1EDF21DEEBF1006D53AD /* LaunchScreen.storyboard */; };
 		409C1EEC21DEEBF1006D53AD /* _sTapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409C1EEB21DEEBF1006D53AD /* _sTapTests.swift */; };
 		409C1EF721DEEBF1006D53AD /* _sTapUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409C1EF621DEEBF1006D53AD /* _sTapUITests.swift */; };
+		409C1F0A21DEED3F006D53AD /* Interface.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 409C1F0821DEED3F006D53AD /* Interface.storyboard */; };
+		409C1F1321DEED44006D53AD /* 3sTapWatch Extension.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 409C1F1221DEED43006D53AD /* 3sTapWatch Extension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		409C1F1821DEED44006D53AD /* InterfaceController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409C1F1721DEED44006D53AD /* InterfaceController.swift */; };
+		409C1F1A21DEED44006D53AD /* ExtensionDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409C1F1921DEED44006D53AD /* ExtensionDelegate.swift */; };
+		409C1F1C21DEED44006D53AD /* NotificationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 409C1F1B21DEED44006D53AD /* NotificationController.swift */; };
+		409C1F2321DEED46006D53AD /* 3sTapWatch.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 409C1F0621DEED3F006D53AD /* 3sTapWatch.app */; };
+		40D41FCD21F16C530095F026 /* Megrim.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40D41FCC21F16C530095F026 /* Megrim.ttf */; };
+		40D41FCE21F16C720095F026 /* Megrim.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40D41FCC21F16C530095F026 /* Megrim.ttf */; };
+		40D41FCF21F16C730095F026 /* Megrim.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40D41FCC21F16C530095F026 /* Megrim.ttf */; };
+		40D41FD021F16C740095F026 /* Megrim.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40D41FCC21F16C530095F026 /* Megrim.ttf */; };
+		40D41FD121F16C750095F026 /* Megrim.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 40D41FCC21F16C530095F026 /* Megrim.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +47,46 @@
 			remoteGlobalIDString = 409C1ED221DEEBED006D53AD;
 			remoteInfo = 3sTap;
 		};
+		409C1F1421DEED44006D53AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409C1ECB21DEEBED006D53AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409C1F1121DEED43006D53AD;
+			remoteInfo = "3sTapWatch Extension";
+		};
+		409C1F2121DEED46006D53AD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 409C1ECB21DEEBED006D53AD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 409C1F0521DEED3F006D53AD;
+			remoteInfo = 3sTapWatch;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		409C1F2721DEED46006D53AD /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				409C1F1321DEED44006D53AD /* 3sTapWatch Extension.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409C1F2B21DEED46006D53AD /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				409C1F2321DEED46006D53AD /* 3sTapWatch.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		409C1ED321DEEBED006D53AD /* 3sTap.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3sTap.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +102,17 @@
 		409C1EF221DEEBF1006D53AD /* 3sTapUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 3sTapUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		409C1EF621DEEBF1006D53AD /* _sTapUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = _sTapUITests.swift; sourceTree = "<group>"; };
 		409C1EF821DEEBF1006D53AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409C1F0621DEED3F006D53AD /* 3sTapWatch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 3sTapWatch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		409C1F0921DEED3F006D53AD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Interface.storyboard; sourceTree = "<group>"; };
+		409C1F0D21DEED43006D53AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409C1F1221DEED43006D53AD /* 3sTapWatch Extension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = "3sTapWatch Extension.appex"; sourceTree = BUILT_PRODUCTS_DIR; };
+		409C1F1721DEED44006D53AD /* InterfaceController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterfaceController.swift; sourceTree = "<group>"; };
+		409C1F1921DEED44006D53AD /* ExtensionDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExtensionDelegate.swift; sourceTree = "<group>"; };
+		409C1F1B21DEED44006D53AD /* NotificationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationController.swift; sourceTree = "<group>"; };
+		409C1F1D21DEED46006D53AD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		409C1F1F21DEED46006D53AD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		409C1F2021DEED46006D53AD /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
+		40D41FCC21F16C530095F026 /* Megrim.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = Megrim.ttf; path = "../../../UCSB/Fall/ECON 134A/FINAL PREP/megrim/Megrim.ttf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,15 +137,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		409C1F0F21DEED43006D53AD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
 		409C1ECA21DEEBED006D53AD = {
 			isa = PBXGroup;
 			children = (
+				40D41FCB21F16C0A0095F026 /* fonts */,
 				409C1ED521DEEBED006D53AD /* 3sTap */,
 				409C1EEA21DEEBF1006D53AD /* 3sTapTests */,
 				409C1EF521DEEBF1006D53AD /* 3sTapUITests */,
+				409C1F0721DEED3F006D53AD /* 3sTapWatch */,
+				409C1F1621DEED44006D53AD /* 3sTapWatch Extension */,
 				409C1ED421DEEBED006D53AD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -90,6 +166,8 @@
 				409C1ED321DEEBED006D53AD /* 3sTap.app */,
 				409C1EE721DEEBF1006D53AD /* 3sTapTests.xctest */,
 				409C1EF221DEEBF1006D53AD /* 3sTapUITests.xctest */,
+				409C1F0621DEED3F006D53AD /* 3sTapWatch.app */,
+				409C1F1221DEED43006D53AD /* 3sTapWatch Extension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -125,6 +203,36 @@
 			path = 3sTapUITests;
 			sourceTree = "<group>";
 		};
+		409C1F0721DEED3F006D53AD /* 3sTapWatch */ = {
+			isa = PBXGroup;
+			children = (
+				409C1F0821DEED3F006D53AD /* Interface.storyboard */,
+				409C1F0D21DEED43006D53AD /* Info.plist */,
+			);
+			path = 3sTapWatch;
+			sourceTree = "<group>";
+		};
+		409C1F1621DEED44006D53AD /* 3sTapWatch Extension */ = {
+			isa = PBXGroup;
+			children = (
+				409C1F1721DEED44006D53AD /* InterfaceController.swift */,
+				409C1F1921DEED44006D53AD /* ExtensionDelegate.swift */,
+				409C1F1B21DEED44006D53AD /* NotificationController.swift */,
+				409C1F1D21DEED46006D53AD /* Assets.xcassets */,
+				409C1F1F21DEED46006D53AD /* Info.plist */,
+				409C1F2021DEED46006D53AD /* PushNotificationPayload.apns */,
+			);
+			path = "3sTapWatch Extension";
+			sourceTree = "<group>";
+		};
+		40D41FCB21F16C0A0095F026 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				40D41FCC21F16C530095F026 /* Megrim.ttf */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -135,10 +243,12 @@
 				409C1ECF21DEEBED006D53AD /* Sources */,
 				409C1ED021DEEBED006D53AD /* Frameworks */,
 				409C1ED121DEEBED006D53AD /* Resources */,
+				409C1F2B21DEED46006D53AD /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				409C1F2221DEED46006D53AD /* PBXTargetDependency */,
 			);
 			name = 3sTap;
 			productName = 3sTap;
@@ -181,6 +291,40 @@
 			productReference = 409C1EF221DEEBF1006D53AD /* 3sTapUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		409C1F0521DEED3F006D53AD /* 3sTapWatch */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409C1F2821DEED46006D53AD /* Build configuration list for PBXNativeTarget "3sTapWatch" */;
+			buildPhases = (
+				409C1F0421DEED3F006D53AD /* Resources */,
+				409C1F2721DEED46006D53AD /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				409C1F1521DEED44006D53AD /* PBXTargetDependency */,
+			);
+			name = 3sTapWatch;
+			productName = 3sTapWatch;
+			productReference = 409C1F0621DEED3F006D53AD /* 3sTapWatch.app */;
+			productType = "com.apple.product-type.application.watchapp2";
+		};
+		409C1F1121DEED43006D53AD /* 3sTapWatch Extension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 409C1F2421DEED46006D53AD /* Build configuration list for PBXNativeTarget "3sTapWatch Extension" */;
+			buildPhases = (
+				409C1F0E21DEED43006D53AD /* Sources */,
+				409C1F0F21DEED43006D53AD /* Frameworks */,
+				409C1F1021DEED43006D53AD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "3sTapWatch Extension";
+			productName = "3sTapWatch Extension";
+			productReference = 409C1F1221DEED43006D53AD /* 3sTapWatch Extension.appex */;
+			productType = "com.apple.product-type.watchkit2-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -202,6 +346,12 @@
 						CreatedOnToolsVersion = 10.1;
 						TestTargetID = 409C1ED221DEEBED006D53AD;
 					};
+					409C1F0521DEED3F006D53AD = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					409C1F1121DEED43006D53AD = {
+						CreatedOnToolsVersion = 10.1;
+					};
 				};
 			};
 			buildConfigurationList = 409C1ECE21DEEBED006D53AD /* Build configuration list for PBXProject "3sTap" */;
@@ -220,6 +370,8 @@
 				409C1ED221DEEBED006D53AD /* 3sTap */,
 				409C1EE621DEEBF1006D53AD /* 3sTapTests */,
 				409C1EF121DEEBF1006D53AD /* 3sTapUITests */,
+				409C1F0521DEED3F006D53AD /* 3sTapWatch */,
+				409C1F1121DEED43006D53AD /* 3sTapWatch Extension */,
 			);
 		};
 /* End PBXProject section */
@@ -232,6 +384,8 @@
 				409C1EE121DEEBF1006D53AD /* LaunchScreen.storyboard in Resources */,
 				409C1EDE21DEEBF1006D53AD /* Assets.xcassets in Resources */,
 				409C1EDC21DEEBED006D53AD /* Main.storyboard in Resources */,
+				40D41FCD21F16C530095F026 /* Megrim.ttf in Resources */,
+				400525A121F1790500CED015 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -239,6 +393,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400525A421F1790800CED015 /* Assets.xcassets in Resources */,
+				40D41FCF21F16C730095F026 /* Megrim.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,6 +402,27 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				400525A321F1790700CED015 /* Assets.xcassets in Resources */,
+				40D41FD021F16C740095F026 /* Megrim.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409C1F0421DEED3F006D53AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				40D41FCE21F16C720095F026 /* Megrim.ttf in Resources */,
+				400525A021F1777300CED015 /* Assets.xcassets in Resources */,
+				409C1F0A21DEED3F006D53AD /* Interface.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		409C1F1021DEED43006D53AD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				400525A221F1790700CED015 /* Assets.xcassets in Resources */,
+				40D41FD121F16C750095F026 /* Megrim.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +454,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		409C1F0E21DEED43006D53AD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				409C1F1C21DEED44006D53AD /* NotificationController.swift in Sources */,
+				409C1F1A21DEED44006D53AD /* ExtensionDelegate.swift in Sources */,
+				409C1F1821DEED44006D53AD /* InterfaceController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -289,6 +476,16 @@
 			isa = PBXTargetDependency;
 			target = 409C1ED221DEEBED006D53AD /* 3sTap */;
 			targetProxy = 409C1EF321DEEBF1006D53AD /* PBXContainerItemProxy */;
+		};
+		409C1F1521DEED44006D53AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409C1F1121DEED43006D53AD /* 3sTapWatch Extension */;
+			targetProxy = 409C1F1421DEED44006D53AD /* PBXContainerItemProxy */;
+		};
+		409C1F2221DEED46006D53AD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 409C1F0521DEED3F006D53AD /* 3sTapWatch */;
+			targetProxy = 409C1F2121DEED46006D53AD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -307,6 +504,14 @@
 				409C1EE021DEEBF1006D53AD /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		409C1F0821DEED3F006D53AD /* Interface.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				409C1F0921DEED3F006D53AD /* Base */,
+			);
+			name = Interface.storyboard;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -433,7 +638,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AS8CR77DZB;
+				DEVELOPMENT_TEAM = MT87Y8XU5P;
 				INFOPLIST_FILE = 3sTap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -451,7 +656,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AS8CR77DZB;
+				DEVELOPMENT_TEAM = MT87Y8XU5P;
 				INFOPLIST_FILE = 3sTap/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -546,6 +751,88 @@
 			};
 			name = Release;
 		};
+		409C1F2521DEED46006D53AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MT87Y8XU5P;
+				INFOPLIST_FILE = "3sTapWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "club.axio.cris.-sTap.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		409C1F2621DEED46006D53AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_COMPLICATION_NAME = Complication;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MT87Y8XU5P;
+				INFOPLIST_FILE = "3sTapWatch Extension/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "club.axio.cris.-sTap.watchkitapp.watchkitextension";
+				PRODUCT_NAME = "${TARGET_NAME}";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
+		409C1F2921DEED46006D53AD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MT87Y8XU5P;
+				IBSC_MODULE = _sTapWatch_Extension;
+				INFOPLIST_FILE = 3sTapWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.axio.cris.-sTap.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Debug;
+		};
+		409C1F2A21DEED46006D53AD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = MT87Y8XU5P;
+				IBSC_MODULE = _sTapWatch_Extension;
+				INFOPLIST_FILE = 3sTapWatch/Info.plist;
+				PRODUCT_BUNDLE_IDENTIFIER = "club.axio.cris.-sTap.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 5.1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -581,6 +868,24 @@
 			buildConfigurations = (
 				409C1F0221DEEBF1006D53AD /* Debug */,
 				409C1F0321DEEBF1006D53AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409C1F2421DEED46006D53AD /* Build configuration list for PBXNativeTarget "3sTapWatch Extension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409C1F2521DEED46006D53AD /* Debug */,
+				409C1F2621DEED46006D53AD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		409C1F2821DEED46006D53AD /* Build configuration list for PBXNativeTarget "3sTapWatch" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				409C1F2921DEED46006D53AD /* Debug */,
+				409C1F2A21DEED46006D53AD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "3sTap/ViewController.swift"
+            timestampString = "568265044.796983"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "10"
+            endingLineNumber = "10"
+            landmarkName = "unknown"
+            landmarkType = "0">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_sTap.ViewController.__allocating_init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _sTap.ViewController"
+                  moduleName = "3sTap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristian/Desktop/Xcode_Projects/3sTap/3sTap/ViewController.swift"
+                  timestampString = "568264977.790252"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_sTap.ViewController.init(nibName: Swift.Optional&lt;Swift.String&gt;, bundle: Swift.Optional&lt;__C.NSBundle&gt;) -&gt; _sTap.ViewController"
+                  moduleName = "3sTap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristian/Desktop/Xcode_Projects/3sTap/3sTap/ViewController.swift"
+                  timestampString = "568264977.8067859"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "268">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_sTap.ViewController.__allocating_init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_sTap.ViewController&gt;"
+                  moduleName = "3sTap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristian/Desktop/Xcode_Projects/3sTap/3sTap/ViewController.swift"
+                  timestampString = "568264977.821601"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_sTap.ViewController.init(coder: __C.NSCoder) -&gt; Swift.Optional&lt;_sTap.ViewController&gt;"
+                  moduleName = "3sTap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristian/Desktop/Xcode_Projects/3sTap/3sTap/ViewController.swift"
+                  timestampString = "568264977.842371"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "11"
+                  endingLineNumber = "11"
+                  offsetFromSymbolStart = "168">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "_sTap.ViewController.__deallocating_deinit"
+                  moduleName = "3sTap"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/cristian/Desktop/Xcode_Projects/3sTap/3sTap/ViewController.swift"
+                  timestampString = "568264977.846585"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "24">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
