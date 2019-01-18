@@ -1,6 +1,6 @@
 # 3 Seconds Tap 
 
-Apple Watch Game
+Apple Watch Game ⌚️
 
 Current version supports only Iphone SE paired with Apple Watch Series 4 40mm
 
